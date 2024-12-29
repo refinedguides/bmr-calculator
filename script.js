@@ -63,7 +63,7 @@ const render = ({ bmr, activityLevels }) => {
 
 //* event handlers
 
-const onFormSubmit = (e) => {
+const handleSubmit = (e) => {
   e.preventDefault();
 
   const form = e.target;
@@ -89,11 +89,11 @@ const onFormSubmit = (e) => {
   }, 400);
 };
 
-const onFormReset = () => {
+const handleReset = () => {
   selectors.result.classList.remove("show");
 };
 
 //* event listeners
 
-selectors.form.addEventListener("submit", onFormSubmit);
-selectors.form.addEventListener("reset", onFormReset);
+selectors.form.addEventListener("submit", handleSubmit);
+selectors.form.addEventListener("reset", handleReset);

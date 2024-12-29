@@ -31,3 +31,13 @@ Where:
 - `A` is the age in years.
 
 These formulas estimate the number of calories your body needs to maintain basic functions at rest. The result is used to calculate daily calorie needs based on activity level.
+
+### Screenshots
+
+![BMR Calculator](https://raw.githubusercontent.com/refinedguides/bmr-calculator/main/screenshot.png)
+
+### Support Me
+
+If you'd like to support me, consider buying me a coffee. Thanks!
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/refinedguides)
